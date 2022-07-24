@@ -115,7 +115,7 @@ public class Target : ILeitura, IContadorList
             case 5:
                 {
                     var inverterString = new InverterString();
-                    inverterString.Inverter(ValorString);
+                    inverterString.ReverseFor(ValorString);
                     
                     break;
                 }
