@@ -9,11 +9,10 @@ public class Target : ILeitura, IContadorList
     //private List<int> ValorRecebidoOperacao = new List<int>();
     public int Posicao { get; set; }  
     public int Valor { get; set; }
-    public string ValorString { get; set; }
+    public string? ValorString { get; set; }
 
     List<string> atividades = new List<string>()
 {
-    "Segue as atividades propostas",
     "1 - Soma Indice",
     "2 - Sequência Fibonacci",
     "3 - Complemente sequência de número.",
@@ -28,14 +27,14 @@ public class Target : ILeitura, IContadorList
             Console.WriteLine(r);
         }
     }
-    public int ContadorList()
+    public int  ContadorList()
     {
-        int count = 0;
+        int contador= 0 ;
         foreach (var r in atividades)
         {
-            count++;
+            contador++;
         }
-        return count;
+        return contador;
     }
     public void EscolhaAtividade()
     {
@@ -87,7 +86,7 @@ public class Target : ILeitura, IContadorList
             case 1:
                 {
                     var soma = new SomaIndice();
-                    soma.somaIndice();
+                    soma.ResultadoSomaIndice();             
                     break;
                 }
             case 2:

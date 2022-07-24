@@ -42,7 +42,7 @@ namespace Target_Sistemas.Funções
 
         public void Resolucao()
         {
-            Console.WriteLine("Estão a mesma distância de Ribeirão Preto, eles se encontra no km 60,9KM.");
+            Console.WriteLine("Se localização na mesma distância de Ribeirão Preto, eles se encontra no km 60,9KM.");
             Console.WriteLine("Observação: Pode estar verificando a lógica e explicacao pela classe Veiculos.");
         }
 

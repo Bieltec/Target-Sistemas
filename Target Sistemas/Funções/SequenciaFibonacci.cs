@@ -44,7 +44,7 @@ internal class SequenciaFibonacci : ILeitura
         int outWhile = 0;
         do
         {
-            Console.WriteLine("Gostaria de visualizar a Sequencia LetraE, SIM(1) NÃO(2):");
+            Console.WriteLine("Gostaria de visualizar a Sequencia Fibonacci, SIM(1) NÃO(2):");
             outWhile = int.Parse(Console.ReadLine());
 
             if (outWhile == 1)

@@ -12,14 +12,14 @@ public class SomaIndice
     public int Soma { get; private set; } = 0;
     public int K { get; private set; } = 0;
 
-    public string somaIndice()
+    public void ResultadoSomaIndice()
     {
         while (K < Indice)
         {
             K = K + 1;
             Soma = Soma + K;
         }
-        return $"Resultado da Soma é {Soma}";
+        Console.WriteLine($"Resultado da Soma é {Soma}"); 
     }
 }
 
