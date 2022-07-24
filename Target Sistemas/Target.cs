@@ -102,7 +102,7 @@ public class Target : ILeitura, IContadorList
             case 3:
                 {;
                     var completeSequencia = new CompleteNumeroSequencia();
-                    
+                    completeSequencia.Resolução();
                     break;
                 }
             case 4:
